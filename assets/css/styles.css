@@ -35,7 +35,7 @@ body {
 .contentport {
     background-color: grey;
     width: 650px;
-    height: 650px;
+    height: 860px;
     margin-left: 25%;
     padding-bottom: 4%;
     margin-top: 2%;
@@ -43,11 +43,14 @@ body {
 .gitlinks{
     color: white;
     text-align: center;
-    margin-left: -290px;
-    margin-top: -200px;
+    margin-left: 750px;
+    margin-top: -210px;
+    position: absolute;
+
 }
 ul{
     margin-left: -35px;
+    list-style: none;
 }
 
 .links {
@@ -154,9 +157,10 @@ input[type=submit] {
     height: 200px;
     float: left;
     border: solid black 2px;
-    margin-left: 2%;
+    margin-left: 13px;
     padding-right: 0;
     margin-top: 10px;
+    border: 0;
 }
 a:hover {
     text-decoration: none;
@@ -215,7 +219,7 @@ label {
     color: white;
     width: 301px;
     height: 40px;
-    margin-left: -625px;
+    margin-left: -627px;
     margin-top: 340px;
     padding-top: 20px;
     text-align: center; 
@@ -226,8 +230,41 @@ label {
     color: white;
     width: 301px;
     height: 40px;
-    margin-left: -307px;
+    margin-left: -313px;
     margin-top: 340px;
+    padding-top: 20px;
+    text-align: center;
+}
+.overlay5 {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    width: 301px;
+    height: 40px;
+    margin-left: -626px;
+    margin-top: 550px;
+    padding-top: 20px;
+    text-align: center;
+}
+.overlay6 {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    width: 301px;
+    height: 40px;
+    margin-left: -314px;
+    margin-top: 550px;
+    padding-top: 20px;
+    text-align: center;
+}
+.overlay7 {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    width: 301px;
+    height: 40px;
+    margin-left: -626px;
+    margin-top: 760px;
     padding-top: 20px;
     text-align: center;
 }
