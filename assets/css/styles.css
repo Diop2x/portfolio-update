@@ -12,9 +12,10 @@ body {
 .content {
     background-color: grey;
     width: 960px;
-    height: 450px;
+    height: 520px;
     margin-left: 12%;
     padding-bottom: 4%;
+    padding-right: auto;
     margin-top: 2%;
 }
 .contentcont {
@@ -58,6 +59,7 @@ ul{
     margin-right: 310px;
     padding-top: 25px;
     color: #777777;
+    position: static;
 }
 .links2 {
     float: right;
@@ -167,20 +169,20 @@ a:hover {
     color: white;
 }
 a:link {
-    text-decoration: none;
-    color: white;
+    text-decoration:blue;
+    color: green;
 }
 a:active {
-    color: white;
+    color: yellow;
 }
 a:visited {
-    color: white;
+    color: purple;
 }
 .about{
     border-right: solid black 2px;
     padding-right: 10px;
 }
-.portfolio {
+.projects {
     padding-left: 10px;
     padding-right: 10px;
     border-right: solid black 2px;
@@ -188,11 +190,19 @@ a:visited {
 .contact {
     padding: 10px;
 }
+address{
+    text-align: center;
+}
+#conadd{
+    padding-left: 8%;
+    color: white;
+}
 label {
     color: white;
 }
 .overlay1 {
     position: absolute;
+    z-index: 1;
     background-color: #4aaaa5;
     color: white;
     width: 301px;
